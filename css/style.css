@@ -544,7 +544,7 @@ footer{
 
 
 
-@media screen and (width <= 1200px){
+@media screen and (max-width:1200px){
     nav{
         padding:0rem 2rem;
     }
@@ -636,7 +636,7 @@ footer{
     }
 }
 
-@media screen and (width <= 750px){
+@media screen and (max-width:750px){
     .profile_halo{
         left:-180px;
     }
@@ -775,7 +775,7 @@ footer{
     }
 }
 
-@media screen and (width <= 550px){
+@media screen and (max-width:550px){
     .hero{
         .hi_msg{
             font-size: 2rem;
