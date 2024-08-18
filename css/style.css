@@ -23,9 +23,6 @@
     box-sizing: border-box;
     background-color: var(--theme_color);
 
-    ul{
-        list-style-type: none;
-    }
     a{
         text-decoration: none;
         color: black;
@@ -36,6 +33,13 @@
             color:inherit;
         }
     }
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style-type: none;
 }
 @media (prefers-color-scheme: dark){
     
@@ -822,13 +826,11 @@ footer hr{
     .stack_container{
         height:auto;
         flex-direction:column;
-        padding:0px;
-
-        div:last-child{
-            justify-content: start;
-            margin-top: -30px;
-            
-        }
+        padding:0px; 
+    }
+    .stack_container div:last-child{
+        justify-content: start;
+        margin-top: -30px;  
     }
     .list{
         width:100%;
