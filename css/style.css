@@ -28,7 +28,13 @@
     }
     a{
         text-decoration: none;
-        color: inherit;
+        color: black;
+    }
+
+    @supports(color:inherit){
+        a{
+            color:inherit;
+        }
     }
 }
 @media (prefers-color-scheme: dark){
@@ -333,7 +339,7 @@ nav{
     background-color: transparent;
 
     ul{
-        font-family: monofett;
+        font-family: monofett, limelight, monospace;
         font-size: 5rem;
         width:100%;
         perspective: 1000px;
