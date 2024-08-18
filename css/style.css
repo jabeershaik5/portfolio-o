@@ -266,7 +266,7 @@ nav{
         }
     }
 }
-.blocks{
+/* .blocks{
     display: flex;
     margin-top: 20px;
 
@@ -279,7 +279,6 @@ nav{
         display: grid;
         place-items: center;
         margin:0px 20px;
-
 
         span{
             height:90%;
@@ -297,6 +296,32 @@ nav{
     div:nth-child(odd){
         transform: rotate(-20deg);
     }
+} */
+.blocks {
+    display: flex;
+    margin-top: 20px;
+}
+.blocks div {
+    height: 80px;
+    width: 80px;
+    background-color: var(--theme_color);
+    border-radius: 25px;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    margin: 0px 20px;
+}
+.blocks div span {
+    height: 90%;
+    width: 90%;
+    background-color: black;
+    border-radius: 25px;
+}
+.blocks div:nth-child(even) {
+    transform: rotate(20deg);
+}
+.blocks div:nth-child(odd) {
+    transform: rotate(-20deg);
 }
 
 .text{
